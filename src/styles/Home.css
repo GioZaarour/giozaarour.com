@@ -7,26 +7,27 @@
   
   .about {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 100px); /* -100px*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #21325e;
+    background-color: #da6142;
     color: #f0f0f0;
   }
   
   .about h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 80px;
-    color: #e9d35b;
+    font-size: 68px;
+    color: #ffe606;
     height: 50px;
   }
   
   .about .prompt {
     width: 40%;
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: bold;
   }
   .prompt svg {
     font-size: 60px;
@@ -44,12 +45,14 @@
   }
   
   .skills h1 {
-    color: #3e497a;
+    color: #000000;
+    margin-bottom: -10px;
   }
   
   .skills .list {
     list-style: none;
     width: 60%;
+    color: #000000;
   }
   
   .list span {
