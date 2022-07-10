@@ -13,9 +13,9 @@ function Home() {
                 <p>Hi! I'm a third-year student at USC majoring in Computer Science and Business. Pursuing a career in financial tech or blockchain as a full-stack software engineer. <br /><br />
                 On this website you can view my projects, code repository, writings, resume, and skills (below).
                 </p>
-                <a href="https://github.com/GioZaarour" target="_blank"><GitHubIcon /></a>
-                <a href="https://www.linkedin.com/in/giozaarour/" target="_blank"><LinkedInIcon /></a>
-                <a href="mailto:giozaarour@gmail.com" target="_blank"><EmailIcon /></a>
+                <a href="https://github.com/GioZaarour" target="_blank" rel="noreferrer"><GitHubIcon /></a>
+                <a href="https://www.linkedin.com/in/giozaarour/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
+                <a href="mailto:giozaarour@gmail.com" target="_blank" rel="noreferrer"><EmailIcon /></a>
             </div> 
         </div>
         <div className="skills">
