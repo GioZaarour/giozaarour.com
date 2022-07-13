@@ -2,7 +2,6 @@
     width: 100%;
     align-items: center;
     font-family: "Arial", sans-serif;
-    color: #3e497a;
   }
   
   .about {
@@ -42,6 +41,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-color: aliceblue;
   }
   
   .skills h1 {

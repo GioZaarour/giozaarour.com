@@ -28,15 +28,17 @@ function App() {
 
 function Articles() {
   // 👇️ redirect to external URL
-  window.location.replace("/", "Home");
+  //window.location.replace("/", "Home");
   window.open("https://medium.com/@giozaarour", "Medium").focus();
+  window.location.replace("/", "Home");
   return null;
 }
 
 function Resume() {
   // 👇️ redirect to external URL
-  window.location.replace("/", "Home");
+  //window.location.replace("/", "Home");
   window.open("http://giozaarour.com/Resume.pdf", "Resume").focus();
+  window.location.replace("/", "Home");
   return null;
 } 
 
