@@ -12,6 +12,7 @@ function ProjectDisplay() {
         <h1>{project.name}</h1> 
         <a href={project.github} target="_blank" rel="noreferrer"><GitHubIcon /></a>
         <p>{project.description}</p>
+        <div className="note">{project.note}</div>
         <p>
             <b>Skills:</b> {project.skills}
         </p>

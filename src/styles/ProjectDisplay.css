@@ -23,7 +23,15 @@
     font-size: 40px;
     color: #3e497a;
     text-align: center;
-    width: 60%;
+    width: 70%;
+  }
+
+  .note {
+    font-size: 30px;
+    font-style: italic;
+    color: #3e497a;
+    text-align: center;
+    width: 70%;
   }
   
   .project svg {
