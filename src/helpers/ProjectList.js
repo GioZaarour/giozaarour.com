@@ -12,9 +12,9 @@ export const ProjectList = [
         name: "Moonlight.xyz", 
         image: moonlight,
         skills: "Solidity, Truffle, Ganache, Chainlink, Ethers.js, Smart Contract Testing & Deployment (NodeJS)",
-        github: "https://moonlightxyz.notion.site/Moonlight-V1-Crowdfunding-Collective-NFT-Ownership-facce76272ea4a6fb6a1409d76b81017",
+        github: "https://github.com/GioZaarour/moonlight-contracts",
         description: "Moonlight is a fractional NFT crowdfunding and co-ownership protocol on the Ethereum blockchain. Includes features such as DAO governance, Uniswap AMM fork, fractionalization, and more.",
-        note: "*NOTE: I am under an NDA by Moonlight Meta, Inc. and am unable to make this code repository public. Please contact me directly if you would like to see a snippet of my work. Please read the whitepaper by clicking the GitHub icon above.",
+        //note: "*NOTE: I am under an NDA by Moonlight Meta, Inc. and am unable to make this code repository public. Please contact me directly if you would like to see a snippet of my work. Please read the whitepaper by clicking the GitHub icon above.",
     }, 
     {
         name: "Tempus NFT", 
