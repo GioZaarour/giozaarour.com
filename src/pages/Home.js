@@ -22,9 +22,13 @@ function Home() {
         <h1> Skills</h1>
         <ol className="list">
           <li className="item">
+            <h2>Languages</h2>
+            <span>C++, Java, Solidity, JavaScript, Python, R</span>
+          </li>
+          <li className="item">
             <h2> Front-End</h2>
             <span>
-              ReactJS, HTML, CSS, NPM, Yarn
+              ReactJS, HTML/CSS
             </span>
           </li>
           <li className="item">
@@ -34,14 +38,16 @@ function Home() {
             </span>
           </li>
           <li className="item">
-            <h2> Blockchain</h2>
+            <h2>Blockchain</h2>
             <span>
               Truffle, Ganache, Ethers.js, Chainlink Oracle, Etherscan
             </span>
           </li>
           <li className="item">
-            <h2>Languages</h2>
-            <span>C++, Java, Solidity, JavaScript, Python, R</span>
+            <h2>Other</h2>
+            <span>
+              Git, Yarn, npm, Unix/Linux(Bash), Windows(Batch, PowerShell)
+            </span>
           </li>
         </ol>
       </div>
