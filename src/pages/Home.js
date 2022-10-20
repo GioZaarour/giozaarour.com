@@ -10,8 +10,7 @@ function Home() {
         <div className="about"> 
             <h2> Giovanni Zaarour </h2>
             <div className="prompt"> 
-                <p>Hi! I'm a third-year student at USC majoring in Computer Science and Business. Pursuing a career in financial tech or blockchain as a full-stack software engineer. <br /><br />
-                On this website you can view my projects, code repository, writings, resume, and skills (below).
+                <p>Hi! I'm a third-year student at USC majoring in Computer Science and Business. Pursuing a career in financial tech or blockchain as a full-stack software engineer.
                 </p>
                 <a href="https://github.com/GioZaarour" target="_blank" rel="noreferrer"><GitHubIcon /></a>
                 <a href="https://www.linkedin.com/in/giozaarour/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
@@ -23,30 +22,24 @@ function Home() {
         <ol className="list">
           <li className="item">
             <h2>Languages</h2>
-            <span>C++, Java, Solidity, JavaScript, Python, R</span>
+            <span>C++, Java, Solidity, JavaScript, Python, HTML, R</span>
           </li>
           <li className="item">
-            <h2> Front-End</h2>
+            <h2>Tools & Frameworks</h2>
             <span>
-              ReactJS, HTML/CSS
-            </span>
-          </li>
-          <li className="item">
-            <h2>Back-End</h2>
-            <span>
-              NodeJS, SQL (MySQL, PostgreSQL), MongoDB
+                React.js, Node.js, SQL (MySQL, PostgreSQL), MongoDB, Git, Docker
             </span>
           </li>
           <li className="item">
             <h2>Blockchain</h2>
             <span>
-              Truffle, Ganache, Ethers.js, Chainlink Oracle, Etherscan
+                Truffle, Ganache, EVM, Ethers.js, Chainlink Oracle, Etherscan
             </span>
           </li>
           <li className="item">
-            <h2>Other</h2>
+            <h2>Product</h2>
             <span>
-              Git, Yarn, npm, Unix/Linux(Bash), Windows(Batch, PowerShell)
+              Market Research, Agile Development, Design Thinking, User Personas, Consumer Surveys/Interviews
             </span>
           </li>
         </ol>
