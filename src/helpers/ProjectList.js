@@ -6,6 +6,7 @@ import sudoku from "../assets/sudoku.png";
 import wordle from "../assets/wordle.jpg";
 import elac from "../assets/patrontool.png";
 import datareport from "../assets/datareport.JPG";
+import potatio from "../assets/potatio.jpg";
 
 export const ProjectList = [
     {
@@ -15,13 +16,14 @@ export const ProjectList = [
         github: "https://github.com/GioZaarour/moonlight-contracts",
         description: "Moonlight is a fractional NFT crowdfunding and co-ownership protocol on the Ethereum blockchain. Includes features such as DAO governance, Uniswap AMM fork, fractionalization, and more.",
         //note: "*NOTE: I am under an NDA by Moonlight Meta, Inc. and am unable to make this code repository public. Please contact me directly if you would like to see a snippet of my work. Please read the whitepaper by clicking the GitHub icon above.",
-    }, 
+    },
     {
-        name: "Tempus NFT", 
-        image: tempusGif,
-        skills: "Solidity, IPFS, Web3.js",
-        github: "https://github.com/GioZaarour/tempus-nft",
-        description: "Smart contract development, testing, and deployment for tempusnft.io, a history-based NFT collection. IPFS hosting and minting DApp (web3.js) for the frontend.",
+        name: "Potat.io", 
+        image: potatio,
+        skills: "Solidity, React.js Foundry, Polygon, Ethers.js",
+        github: "https://github.com/dangush/ethsanfrancisco22",
+        description: "Payment streaming betting game built on the Ethereum/Polygon. For the ETHGlobal San Francisco 2022 hackathon. Our project won best project and prize money for three different sponsor pools",
+        //note: "*NOTE: I am under an NDA by Moonlight Meta, Inc. and am unable to make this code repository public. Please contact me directly if you would like to see a snippet of my work. Please read the whitepaper by clicking the GitHub icon above.",
     }, 
     {
         name: "giozaarour.com", 
@@ -37,6 +39,13 @@ export const ProjectList = [
         github: "https://github.com/GioZaarour/C-AVL-Tree",
         description: "An AVL tree is a self-balancing binary search tree, which is a popular yet complicated data structure. Coded in C++ using OOP, templating, pointers, memory allocation, etc.",
     },
+    {
+        name: "Tempus NFT", 
+        image: tempusGif,
+        skills: "Solidity, IPFS, Web3.js",
+        github: "https://github.com/GioZaarour/tempus-nft",
+        description: "Smart contract development, testing, and deployment for tempusnft.io, a history-based NFT collection. IPFS hosting and minting DApp (web3.js) for the frontend.",
+    }, 
     {
         name: "Python Library Data Visualizer",
         image: datareport,
