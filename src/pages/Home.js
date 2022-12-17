@@ -2,6 +2,7 @@ import React from 'react'
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
+import TwitterIcon from "@material-ui/icons/Twitter";
 import "../styles/Home.css";
 
 function Home() {
@@ -14,9 +15,11 @@ function Home() {
                 </p>
                 <a href="https://github.com/GioZaarour" target="_blank" rel="noreferrer"><GitHubIcon /></a>
                 <a href="https://www.linkedin.com/in/giozaarour/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
+                <a href="https://twitter.com/giozaarour" target="_blank" rel="noreferrer"><TwitterIcon /></a>
                 <a href="mailto:giozaarour@gmail.com" target="_blank" rel="noreferrer"><EmailIcon /></a>
             </div> 
         </div>
+        {/*
         <div className="skills">
         <h1> Skills</h1>
         <ol className="list">
@@ -43,7 +46,8 @@ function Home() {
             </span>
           </li>
         </ol>
-      </div>
+        </div>
+        */}
     </div>
   )
 }

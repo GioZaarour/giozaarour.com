@@ -1,7 +1,8 @@
 .footer {
     width: 100%;
     height: 200px;
-    background: #da6142;;
+    /* background: #da6142;*/
+    background-image: linear-gradient(to right, rgb(255, 49, 49) , rgb(251, 251, 50));
     display: flex;
     justify-content: center;
     align-items: center;

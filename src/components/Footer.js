@@ -4,8 +4,14 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
 import "../styles/Footer.css";
+import { useLocation } from "react-router-dom";
 
 function Footer() {
+  //the following 3 lines exclude footer from the home ("/") page
+  const { pathname } = useLocation();
+  console.log(pathname);
+  if (pathname === "/") return null;
+
   return (
     <div className="footer">
         <div className="socialMedia"> 
