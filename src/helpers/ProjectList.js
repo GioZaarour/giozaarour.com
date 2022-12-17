@@ -7,8 +7,17 @@ import wordle from "../assets/wordle.jpg";
 import elac from "../assets/patrontool.png";
 import datareport from "../assets/datareport.JPG";
 import potatio from "../assets/potatio.jpg";
+import trojanscheduler from "../assets/trojanscheduler.PNG";
 
 export const ProjectList = [
+    {
+        name: "Trojan Scheduler", 
+        image: trojanscheduler,
+        skills: "Java, JavaScript, MySQL DB, Python Scraping, Client-Server Networking",
+        github: "https://github.com/GioZaarour/Trojan-Scheduler",
+        description: "Trojan scheduler is an app designed to help USC students find the best GE courses based on their schedule availability, the desired GE category, and optimal professor ratings. This scrapes data from the USC web registration page and professor rating data from RateMyProfessor.",
+        //note: "*NOTE: I am under an NDA by Moonlight Meta, Inc. and am unable to make this code repository public. Please contact me directly if you would like to see a snippet of my work. Please read the whitepaper by clicking the GitHub icon above.",
+    },
     {
         name: "Moonlight.xyz", 
         image: moonlight,
@@ -40,13 +49,6 @@ export const ProjectList = [
         description: "An AVL tree is a self-balancing binary search tree, which is a popular yet complicated data structure. Coded in C++ using OOP, templating, pointers, memory allocation, etc.",
     },
     {
-        name: "Tempus NFT", 
-        image: tempusGif,
-        skills: "Solidity, IPFS, Web3.js",
-        github: "https://github.com/GioZaarour/tempus-nft",
-        description: "Smart contract development, testing, and deployment for tempusnft.io, a history-based NFT collection. IPFS hosting and minting DApp (web3.js) for the frontend.",
-    }, 
-    {
         name: "Python Library Data Visualizer",
         image: datareport,
         skills: "Python, Powershell Scripting, HTML, REST API",
@@ -62,6 +64,13 @@ export const ProjectList = [
         description: "Online patron registration tool that generates a new library card number and patron profile (connected to the Library ILS Database via Sierra REST API).",
         note: "This is a project I built while working for the City of Glendale, and is being used by the public at https://register.eglendalelac.org ",
     },
+    {
+        name: "Tempus NFT", 
+        image: tempusGif,
+        skills: "Solidity, IPFS, Web3.js",
+        github: "https://github.com/GioZaarour/tempus-nft",
+        description: "Smart contract development, testing, and deployment for tempusnft.io, a history-based NFT collection. IPFS hosting and minting DApp (web3.js) for the frontend.",
+    }, 
     {
         name: "Wordle Solver", 
         image: wordle,
