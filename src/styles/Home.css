@@ -14,7 +14,8 @@
     text-align: center;
     /*background-color: #da6142; */
     background-image: linear-gradient(to right, rgb(255, 49, 49) , rgb(251, 251, 50));
-    color: #f0f0f0;
+    color: #30338b; /*#f0f0f0*/
+
   }
   
   .about h2 {

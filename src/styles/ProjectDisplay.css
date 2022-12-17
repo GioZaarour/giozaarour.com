@@ -11,7 +11,8 @@
   .project h1 {
     margin-top: 50px;
     color: #3e497a;
-    font-size: 35px;
+    font-size: 30px;
+    text-align: center;
   }
   .project img {
     width: 700px;
@@ -20,14 +21,14 @@
   }
   
   .project p {
-    font-size: 40px;
+    font-size: 25px;
     color: #3e497a;
     text-align: center;
     width: 70%;
   }
 
   .note {
-    font-size: 30px;
+    font-size: 25px;
     font-style: italic;
     color: #3e497a;
     text-align: center;
