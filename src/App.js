@@ -2,7 +2,7 @@ import './App.css';
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
-//import Articles from './pages/Articles';
+import Articles from './pages/Articles';
 //import Resume from './pages/Resume';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -26,13 +26,14 @@ function App() {
   );
 }
 
+/*
 function Articles() {
   // 👇️ redirect to external URL
   //window.location.replace("/", "Home");
   window.open("https://medium.com/@giozaarour", "Medium").focus();
   window.location.replace("/", "Home");
   return null;
-}
+} */
 
 function Resume() {
   // 👇️ redirect to external URL

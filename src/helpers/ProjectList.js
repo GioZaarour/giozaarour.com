@@ -20,7 +20,7 @@ export const ProjectList = [
     {
         name: "Potat.io", 
         image: potatio,
-        skills: "Solidity, React.js Foundry, Polygon, Ethers.js",
+        skills: "Solidity, React.js, Foundry, Polygon, Ethers.js",
         github: "https://github.com/dangush/ethsanfrancisco22",
         description: "Payment streaming betting game built on the Ethereum/Polygon. For the ETHGlobal San Francisco 2022 hackathon. Our project won best project and prize money for three different sponsor pools",
         //note: "*NOTE: I am under an NDA by Moonlight Meta, Inc. and am unable to make this code repository public. Please contact me directly if you would like to see a snippet of my work. Please read the whitepaper by clicking the GitHub icon above.",
