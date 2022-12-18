@@ -1,9 +1,16 @@
-import gpt from "../assets/gpt.jpeg"
+import startup from "../assets/startup.jpg";
+import gpt from "../assets/gpt.jpeg";
 import enterprise from "../assets/enterprise.jpg";
 import layerzero from "../assets/layerzero.jpg";
 import ukraine from "../assets/bitcoin-ukraine.jpg";
 
 export const ArticleList = [
+    {
+        title: "Lessons Learned Launching a Startup in College", 
+        thumbnail: startup,
+        date: "Dec 18, 2022",
+        hyperlink: "https://giozaarour.medium.com/lessons-learned-launching-a-startup-in-college-aeee056ca79a",
+    },
     {
         title: "OpenAI’s GPT-3: The Ethical Landscape of a Powerful Tool", 
         thumbnail: gpt,
