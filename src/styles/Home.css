@@ -12,21 +12,22 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    /*background-color: #da6142; */
-    background-image: linear-gradient(to right, rgb(255, 49, 49) , rgb(251, 251, 50));
-    color: #30338b; /*#f0f0f0*/
+    /* background-color: #363636 ; */
+    /*background-image: linear-gradient(to right, rgb(255, 49, 49) , rgb(251, 251, 50));*/
+    background-image: linear-gradient(to right, #2A363B , #9DE0AD);
+    color: white; /*#f0f0f0*/
 
   }
   
   .about h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 70px;
-    color: #30338bc7;
+    font-size: 50px;
+    color: white;
     height: 50px;
   }
   
   .about .prompt {
-    width: 40%;
+    width: 50%;
     font-size: 20px;
     font-weight: bold;
   }

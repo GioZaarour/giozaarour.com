@@ -9,10 +9,10 @@ function Home() {
   return (
     <div className="home">
         <div className="about"> 
-            <h2> Giovanni Zaarour </h2>
+            <h2> Hi, I'm Gio. </h2>
             <div className="prompt"> 
-                <p>Hi! I'm a third-year student at USC majoring in Computer Science and Business. Pursuing a career in financial tech or blockchain as a full-stack software engineer.
-                </p>
+                <p>I'm a student at the University of Southern California studying Computer Science and Business. I am passionate about blockchain, finance/financial tech, economics, and entrepreneurship! <br /> <br />
+                -Giovanni Zaarour</p>
                 <a href="https://github.com/GioZaarour" target="_blank" rel="noreferrer"><GitHubIcon /></a>
                 <a href="https://www.linkedin.com/in/giozaarour/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
                 <a href="https://twitter.com/giozaarour" target="_blank" rel="noreferrer"><TwitterIcon /></a>
