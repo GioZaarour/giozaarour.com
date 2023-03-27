@@ -3,8 +3,22 @@ import gpt from "../assets/gpt.jpeg";
 import enterprise from "../assets/enterprise.jpg";
 import layerzero from "../assets/layerzero.jpg";
 import ukraine from "../assets/bitcoin-ukraine.jpg";
+import lebanon from "../assets/lebanon.png";
+import AA from "../assets/AA.webp";
 
 export const ArticleList = [
+    {
+        title: "Deep Dive into Account Abstraction and EIP-4337: Scaling Ethereum UX from Zero to One", 
+        thumbnail: AA,
+        date: "Mar 27, 2023",
+        hyperlink: "https://giozaarour.substack.com/p/deep-dive-into-account-abstraction",
+    },
+    {
+        title: "Lebanon: A Broken Country — Macroeconomic Overview and Crisis Analysis", 
+        thumbnail: lebanon,
+        date: "Feb 18, 2023",
+        hyperlink: "https://giozaarour.medium.com/lebanon-a-broken-country-macroeconomic-overview-and-crisis-analysis-ee82de4c9c22",
+    },
     {
         title: "Lessons Learned Launching a Startup in College", 
         thumbnail: startup,

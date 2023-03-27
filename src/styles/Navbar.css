@@ -1,9 +1,9 @@
 .navbar {
     width: 100%;
     height: 100px;
-    /* background: #363636 ; */
+    background: #363636 ;
     /*background-image: linear-gradient(to right, rgb(255, 49, 49) , rgb(251, 251, 50));*/
-    background-image: linear-gradient(to right, #2A363B , #9DE0AD);
+    /*background-image: linear-gradient(to right, #2A363B , #9DE0AD);*/
     }
   
   .links {

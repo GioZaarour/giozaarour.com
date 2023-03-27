@@ -2,7 +2,7 @@ import './App.css';
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
-import Articles from './pages/Articles';
+import Writing from './pages/Writing';
 //import Resume from './pages/Resume';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -17,7 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/project/:id" element={<ProjectDisplay />}/>
-          <Route path="/articles" element={<Articles />} />
+          <Route path="/writing" element={<Writing />} />
           <Route path="/resume" element={<Resume />} />
         </Routes>
         <Footer />

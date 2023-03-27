@@ -2,9 +2,9 @@ import React from 'react';
 import ArticleItem from '../components/ArticleItem';
 import { ArticleList} from '../helpers/ArticleList';
 
-import "../styles/Articles.css";
+import "../styles/Writing.css";
 
-function Articles() {
+function Writing() {
   return (
     <div className="articles">
       {/*<h1>Writings</h1>*/}
@@ -19,4 +19,4 @@ function Articles() {
   )
 }
 
-export default Articles
+export default Writing
