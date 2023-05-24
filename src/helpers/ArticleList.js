@@ -5,8 +5,22 @@ import layerzero from "../assets/layerzero.jpg";
 import ukraine from "../assets/bitcoin-ukraine.jpg";
 import lebanon from "../assets/lebanon.png";
 import AA from "../assets/AA.webp";
+import consensus from "../assets/consensus.png";
+import passivum from "../assets/passivum.jpg";
 
 export const ArticleList = [
+    {
+        title: "Passivum -- Playing Around with Account Abstraction", 
+        thumbnail: passivum,
+        date: "May 24, 2023",
+        hyperlink: "https://giozaarour.substack.com/p/passivum-playing-around-with-account",
+    },
+    {
+        title: "The Fault-Tolerant Consensus Problem and Its Solutions in Blockchains and Distributed Systems", 
+        thumbnail: consensus,
+        date: "May 19, 2023",
+        hyperlink: "https://open.substack.com/pub/giozaarour/p/the-fault-tolerant-consensus-problem",
+    },
     {
         title: "Deep Dive into Account Abstraction and EIP-4337: Scaling Ethereum UX from Zero to One", 
         thumbnail: AA,

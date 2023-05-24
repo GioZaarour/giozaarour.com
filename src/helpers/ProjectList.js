@@ -8,8 +8,17 @@ import elac from "../assets/patrontool.png";
 import datareport from "../assets/datareport.JPG";
 import potatio from "../assets/potatio.jpg";
 import trojanscheduler from "../assets/trojanscheduler.PNG";
+import passivum from "../assets/passivum.jpg";
 
 export const ProjectList = [
+    {
+        name: "Passivum Wallet", 
+        image: passivum,
+        skills: "Solidity, Foundry, Next.js, React.js, Ethers.js, ERC-4337",
+        github: "https://github.com/BlockchainUSC/passivum_wallet",
+        description: "Passivum is an account abstraction smart contract wallet built on top of the Biconomy SDK that allows users to enable social recovery and stake their idle tokens in DEX liquidity pools -- all with just one click and without paying any gas fees thanks to gasless batch trasactions.",
+        short: "ERC-4337 smart contract wallet with built-in DeFi dApp",
+    },
     {
         name: "Trojan Scheduler", 
         image: trojanscheduler,
@@ -29,9 +38,9 @@ export const ProjectList = [
     {
         name: "potat.io", 
         image: potatio,
-        skills: "Solidity, React.js, Foundry, Polygon, Ethers.js",
+        skills: "Solidity, Foundry, React.js, Ethers.js",
         github: "https://github.com/dangush/ethsanfrancisco22",
-        description: "Betting game built on Ethereum/Polygon, utilizing payment streaming via Superfluid. For the ETHGlobal San Francisco 2022 hackathon. Our project won best project and prize money for three different sponsor pools",
+        description: "Betting game built on Ethereum/Polygon, utilizing payment streaming via Superfluid. For the ETHGlobal San Francisco 2022 hackathon. Our project won prizes for three different sponsor pools",
         short: "Smart contract betting game built on the blockchain"
     }, 
     {
