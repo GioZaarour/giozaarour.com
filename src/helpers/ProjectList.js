@@ -9,8 +9,17 @@ import datareport from "../assets/datareport.JPG";
 import potatio from "../assets/potatio.jpg";
 import trojanscheduler from "../assets/trojanscheduler.PNG";
 import passivum from "../assets/passivum.jpg";
+import paxos from "../assets/paxos.jpg";
 
 export const ProjectList = [
+    {
+        name: "Paxos RSM", 
+        image: paxos,
+        skills: "Paxos, Go, Distributed Systems, Parallel Computing, Remote Procedure Calls, Concurrency",
+        github: "https://github.com/GioZaarour/Paxos-RSM",
+        description: "Replicated state machine (a key/value store) using a custom Paxos algorithm implementation in Go. This was a project for my upper division Distributed Systems class at USC.",
+        short: "RSM using a custom Paxos algorithm implementation in Go",
+    },
     {
         name: "Passivum Wallet", 
         image: passivum,
@@ -36,6 +45,14 @@ export const ProjectList = [
         short: "NFT crowdfunding and co-ownership protocol"
     },
     {
+        name: "Primary-Backup RSM", 
+        image: paxos,
+        skills: "Primary-Backup Replication, Go, Distributed Systems, Parallel Computing, Remote Procedure Calls, Concurrency",
+        github: "https://github.com/GioZaarour/Primary-Backup-RSM",
+        description: "Replicated state machine (a key/value store) using a custom primary-backup replication implementation in Go, with an unreplicated view service. This was a project for my upper division Distributed Systems class at USC.",
+        short: "RSM using a custom primary-backup replication implemenatation in Go",
+    },
+    {
         name: "potat.io", 
         image: potatio,
         skills: "Solidity, Foundry, React.js, Ethers.js",
@@ -43,14 +60,14 @@ export const ProjectList = [
         description: "Betting game built on Ethereum/Polygon, utilizing payment streaming via Superfluid. For the ETHGlobal San Francisco 2022 hackathon. Our project won prizes for three different sponsor pools",
         short: "Smart contract betting game built on the blockchain"
     }, 
-    {
-        name: "giozaarour.com", 
-        image: websiteCom,
-        skills: "JavaScript (ReactJS), HTML, CSS, Web Hosting",
-        github: "https://github.com/GioZaarour/giozaarour.com",
-        description: "My personal website (this one!) and portfolio.",
-        short: "This website"
-    }, 
+    // {
+    //     name: "giozaarour.com", 
+    //     image: websiteCom,
+    //     skills: "JavaScript (ReactJS), HTML, CSS, Web Hosting",
+    //     github: "https://github.com/GioZaarour/giozaarour.com",
+    //     description: "My personal website (this one!) and portfolio.",
+    //     short: "This website"
+    // }, 
     {
         name: "C++ AVL Tree", 
         image: avlShit,
@@ -85,20 +102,20 @@ export const ProjectList = [
     //     description: "Smart contract development, testing, and deployment for tempusnft.io, a history-based NFT collection. IPFS hosting and minting DApp (web3.js) for the frontend.",
     //     short: "10k NFT project with frontend application for minting"
     // }, 
-    {
-        name: "Wordle Solver", 
-        image: wordle,
-        skills: "C++, Recursive Algorithms",
-        github: "https://github.com/GioZaarour/C-Wordle-Solver",
-        description: "Outputs possible solutions for a wordle game. Generates all possible combinations using a recursive counting algorithm then pulls matching English words from the dictionary file",
-        short: "Generates all possible solutions for wordle in C++"
-    },
-    {
-        name: "Sudoku Solver", 
-        image: sudoku,
-        skills: "C++, Backtracking Recursion",
-        github: "https://github.com/GioZaarour/C-Sudoku-Solver",
-        description: "Sudoku board solver using a recursive backtracking algorithm in C++",
-        short: "Solves sudoku board in C++ with backtracking algorithm"
-    },
+    // {
+    //     name: "Wordle Solver", 
+    //     image: wordle,
+    //     skills: "C++, Recursive Algorithms",
+    //     github: "https://github.com/GioZaarour/C-Wordle-Solver",
+    //     description: "Outputs possible solutions for a wordle game. Generates all possible combinations using a recursive counting algorithm then pulls matching English words from the dictionary file",
+    //     short: "Generates all possible solutions for wordle in C++"
+    // },
+    // {
+    //     name: "Sudoku Solver", 
+    //     image: sudoku,
+    //     skills: "C++, Backtracking Recursion",
+    //     github: "https://github.com/GioZaarour/C-Sudoku-Solver",
+    //     description: "Sudoku board solver using a recursive backtracking algorithm in C++",
+    //     short: "Solves sudoku board in C++ with backtracking algorithm"
+    // },
 ];

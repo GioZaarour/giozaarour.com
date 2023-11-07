@@ -65,12 +65,12 @@ export const ArticleList = [
         date: "Sep 25, 2022",
         hyperlink: "https://giozaarour.medium.com/blockchain-but-not-currency-distributed-ledger-technology-is-innovation-for-enterprises-3f0a44796a39",
     },
-    {
-        title: "Layerzero: The Possible Future of Blockchain Interoperability", 
-        thumbnail: layerzero,
-        date: "May 6, 2022",
-        hyperlink: "https://giozaarour.medium.com/layerzero-the-possible-future-of-blockchain-interoperability-7c7ed61ce433",
-    },
+    // {
+    //     title: "Layerzero: The Possible Future of Blockchain Interoperability", 
+    //     thumbnail: layerzero,
+    //     date: "May 6, 2022",
+    //     hyperlink: "https://giozaarour.medium.com/layerzero-the-possible-future-of-blockchain-interoperability-7c7ed61ce433",
+    // },
     {
         title: "How the Ukraine War Is a Test for Crypto — And Why Crypto Is Passing", 
         thumbnail: ukraine,
