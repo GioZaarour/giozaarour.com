@@ -7,6 +7,7 @@ import Writing from './pages/Writing';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ProjectDisplay from './pages/ProjectDisplay';
+import About from './pages/About';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/project/:id" element={<ProjectDisplay />}/>
           <Route path="/writing" element={<Writing />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
       </Router>

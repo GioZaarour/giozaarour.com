@@ -1,11 +1,9 @@
 import React from 'react'
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import GitHubIcon from '@material-ui/icons/GitHub';
 //import EmailIcon from '@material-ui/icons/Email';
-import TwitterIcon from "@mui/icons-material/Twitter";
+import TwitterIcon from "@material-ui/icons/Twitter";
 import "../styles/Home.css";
-import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
-
 
 function Home() {
   return (
@@ -16,7 +14,6 @@ function Home() {
                 <p>I'm a student at the University of Southern California studying Computer Science and Business. Some things I like are: blockchains, distributed systems, machine learning, cryptography, finance, economics, and entrepreneurship.</p>
                 <a href="https://github.com/GioZaarour" target="_blank" rel="noreferrer"><GitHubIcon /></a>
                 <a href="https://www.linkedin.com/in/giozaarour/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
-                <a href="/about" target="_blank" rel="noreferrer"><QuestionMarkIcon /></a>
                 <a href="https://twitter.com/giozaarour" target="_blank" rel="noreferrer"><TwitterIcon /></a>
                 <a href="https://giozaarour.substack.com" target="_blank" rel="noreferrer">
                   <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 448 511.471"><path fill="white" d="M0 0h448v62.804H0V0zm0 229.083h448v282.388L223.954 385.808 0 511.471V229.083zm0-114.542h448v62.804H0v-62.804z"/></svg>

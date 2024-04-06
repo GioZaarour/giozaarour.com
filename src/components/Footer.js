@@ -1,7 +1,7 @@
 import React from 'react'
-import TwitterIcon from "@material-ui/icons/Twitter";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import GitHubIcon from '@material-ui/icons/GitHub';
+import TwitterIcon from "@mui/icons-material/Twitter";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from '@mui/icons-material/GitHub';
 //import EmailIcon from '@material-ui/icons/Email';
 import "../styles/Footer.css";
 import { useLocation } from "react-router-dom";

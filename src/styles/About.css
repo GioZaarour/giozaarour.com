@@ -1,0 +1,168 @@
+.home {
+    width: 100%;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .about {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #363636 ; 
+    /*background-image: linear-gradient(to right, rgb(255, 49, 49) , rgb(251, 251, 50));*/
+    /*background-image: linear-gradient(to right, #2A363B , #9DE0AD);*/
+    color: white; /*#f0f0f0*/
+
+  }
+
+  /* To specifically target links within the 'currently' and 'previously' sections */
+.currently a, .previously a {
+    color: lightblue; /* You can also use a specific shade of blue like #0000FF or a custom color */
+    text-decoration: underline; /* This is usually the default for links, but it's here for clarity */
+  }
+
+  hr {
+    margin-top: 35px; 
+    border: none; 
+    height: 2px; 
+    background-color: lightblue; 
+    width: 45%; 
+  }
+
+  .currently p, .previously p {
+    position: relative; /* Allows pseudo-element positioning relative to each <p> */
+    text-align: center;
+    padding-left: 30px; /* Adjust as necessary to make room for the bullet */
+  }
+  
+  .currently p::before, .previously p::before {
+    content: '➣'; /* Arrow character, can be replaced with any character or icon */
+    position: absolute;
+    left: 0; /* Aligns the bullet to the left side of the paragraph */
+    top: 0; /* Adjust if needed to align vertically with your text */
+    transform: translateX(-100%); /* Moves the bullet to the left of the start of the text */
+  }
+  
+  .about h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: white;
+    height: 20px;
+    font-weight: 500;
+  }
+  
+  .about .prompt {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+    font-size: 25px;
+    font-weight: 350;
+  }
+  .prompt svg {
+    font-size: 60px;
+    margin: 5px;
+    color: white;
+  }
+
+  .about .currently {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+    font-size: 18px;
+    font-weight: 350;
+  }
+  
+  .about .previously {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+    font-size: 18px;
+    font-weight: 350;
+  }
+  .skills {
+    font-size: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+  }
+  
+  .skills h1 {
+    color: #000000;
+    margin-bottom: -10px;
+  }
+  
+  .skills .list {
+    list-style: none;
+    width: 60%;
+    color: #000000;
+  }
+  
+  .list span {
+    font-size: 20px;
+  }
+  
+  /* Responsive adjustments for mobile devices */
+  @media only screen and (max-width: 600px) {
+
+    .about {
+        padding-bottom: 550px;
+    }
+
+    .about h2 {
+      font-size: 40px;
+    }
+  
+    .about .prompt {
+      margin-top: 10px;
+      font-size: 20px;
+      width: 80%;
+    }
+
+    .about .currently {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        width: 50%;
+        font-size: 18px;
+        font-weight: 350;
+        padding-top: 550px;
+      }
+  
+    .list {
+      padding: 0;
+    }
+
+  }
+
+  /* Responsive adjustments for smaller mobile devices */
+  @media only screen and (max-width: 400px) {
+
+    .about {
+        padding-bottom: 850px;
+    }
+
+    .about h2 {
+      font-size: 40px;
+    }
+  
+    .about .prompt {
+      margin-top: 10px;
+      font-size: 20px;
+      width: 80%;
+    }
+
+    .about .currently {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        width: 50%;
+        font-size: 18px;
+        font-weight: 350;
+        padding-top: 850px;
+      }
+  
+    .list {
+      padding: 0;
+    }
+
+  }

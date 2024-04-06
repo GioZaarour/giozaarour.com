@@ -10,8 +10,25 @@ import potatio from "../assets/potatio.jpg";
 import trojanscheduler from "../assets/trojanscheduler.PNG";
 import passivum from "../assets/passivum.jpg";
 import paxos from "../assets/paxos.jpg";
+import eth from "../assets/eth.jpg";
 
 export const ProjectList = [
+    {
+        name: "Modelling ETH MEV", 
+        image: eth,
+        skills: "Python, Jupyter Notebook, Machine Learning, Data Analysis, Ethereum, MEV, Pandas, Numpy, Scikit-learn",
+        github: "https://github.com/GioZaarour/ETH-MEV-Machine-Learning",
+        description: "This project utilizes machine learning to model realized Maximal-Extractable-Value (MEV) rewards in the proof-of-stake Ethereum blockchain, utilizing exogenous network variables.",
+        short: "Using machine learning to model Ethereum MEV trends",
+    },
+    {
+        name: "Failora", 
+        image: paxos,
+        skills: "Go, Distributed Systems Theory",
+        github: "https://github.com/cantoramann/failora",
+        description: "A novel leader election algorithm for distributed systems which is based on response latency and response rate under high traffic in previous elections. Built with my friend Can Toraman.",
+        short: "Novel leader election algorithm for distributed systems",
+    },
     {
         name: "Paxos RSM", 
         image: paxos,

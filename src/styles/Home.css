@@ -38,7 +38,20 @@
     margin: 5px;
     color: white;
   }
+
+  .about .currently {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+    font-size: 18px;
+    font-weight: 350;
+  }
   
+  .about .previously {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+    font-size: 18px;
+    font-weight: 350;
+  }
   .skills {
     font-size: 35px;
     width: 100%;
