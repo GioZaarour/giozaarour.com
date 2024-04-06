@@ -5,8 +5,8 @@ import "../styles/Home.css";
 function About() {
   return (
     <div>
-    <div className="home">
-        <div className="about">
+    <div className="about_home">
+        <div className="roles">
             <div className="currently">
                 <h2>Currently</h2>
                 <p>Building a trustless and verifiable data marketplace for the AI revolution <i>(coming soon)</i></p>

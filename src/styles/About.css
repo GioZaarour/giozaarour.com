@@ -1,10 +1,10 @@
-.home {
+.about_home {
     width: 100%;
     align-items: center;
     font-family: "Arial", sans-serif;
   }
   
-  .about {
+  .roles {
     width: 100%;
     height: calc(100vh - 100px);
     display: flex;
@@ -47,7 +47,7 @@
     transform: translateX(-100%); /* Moves the bullet to the left of the start of the text */
   }
   
-  .about h2 {
+  .roles h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 40px;
     color: white;
@@ -55,7 +55,7 @@
     font-weight: 500;
   }
   
-  .about .prompt {
+  .roles .prompt {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     width: 50%;
     font-size: 25px;
@@ -67,14 +67,14 @@
     color: white;
   }
 
-  .about .currently {
+  .roles .currently {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     width: 50%;
     font-size: 18px;
     font-weight: 350;
   }
   
-  .about .previously {
+  .roles .previously {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     width: 50%;
     font-size: 18px;
@@ -108,26 +108,32 @@
   /* Responsive adjustments for mobile devices */
   @media only screen and (max-width: 600px) {
 
-    .about {
+    .roles {
         padding-bottom: 550px;
     }
 
-    .about h2 {
+    .roles h2 {
       font-size: 40px;
     }
   
-    .about .prompt {
+    .roles .prompt {
       margin-top: 10px;
       font-size: 20px;
       width: 80%;
     }
 
-    .about .currently {
+    .roles .currently {
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         width: 50%;
         font-size: 18px;
         font-weight: 350;
         padding-top: 550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
       }
   
     .list {
@@ -139,30 +145,54 @@
   /* Responsive adjustments for smaller mobile devices */
   @media only screen and (max-width: 400px) {
 
-    .about {
-        padding-bottom: 850px;
+    .about_home {
+      width: 100%;
+      align-items: center;
+      font-family: "Arial", sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 150vh;
+      margin: 0;
     }
-
-    .about h2 {
+  
+    .roles {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 150vh;
+      margin: 0;
+    }
+  
+    .roles h2 {
       font-size: 40px;
     }
   
-    .about .prompt {
+    .roles .prompt {
       margin-top: 10px;
       font-size: 20px;
       width: 80%;
     }
+  
+    .roles .currently {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      width: 50%;
+      font-size: 18px;
+      font-weight: 350;
 
-    .about .currently {
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        width: 50%;
-        font-size: 18px;
-        font-weight: 350;
-        padding-top: 850px;
-      }
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
   
     .list {
       padding: 0;
     }
-
+  
   }
+  

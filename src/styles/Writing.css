@@ -68,13 +68,47 @@
       grid-template-columns: 1fr;
     }
   }
-  
-  @media only screen and (max-width: 800px) {
+
+  /* big tablet */
+  @media only screen and (max-height: 1400px) {
     .articleList {
       width: 100%;
     } 
     .articleItem {
       width: 300px;
-      height: 46vh; /*calc(100vh - 400px) or 46vh*/
+      height: 26vh; /*calc(100vh - 400px) or 46vh*/
+    }
+  }
+
+  /* smaller tablets */
+  @media only screen and (max-height: 1100px) {
+    .articleList {
+      width: 100%;
+    } 
+    .articleItem {
+      width: 300px;
+      height: 33vh; /*calc(100vh - 400px) or 46vh*/
+    }
+  }
+
+  /* bigger phones */
+  @media only screen and (max-height: 1000px) {
+    .articleList {
+      width: 100%;
+    } 
+    .articleItem {
+      width: 300px;
+      height: 38vh; /*calc(100vh - 400px) or 46vh*/
+    }
+  }
+
+  /* smaller phones */
+  @media only screen and (max-height: 800px) {
+    .articleList {
+      width: 100%;
+    } 
+    .articleItem {
+      width: 300px;
+      height: 50vh; /*calc(100vh - 400px) or 46vh*/
     }
   }
