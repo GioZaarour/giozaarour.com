@@ -11,6 +11,7 @@ import trojanscheduler from "../assets/trojanscheduler.PNG";
 import passivum from "../assets/passivum.jpg";
 import paxos from "../assets/paxos.jpg";
 import eth from "../assets/eth.jpg";
+import nationalparks from "../assets/nationalparks.png";
 
 export const ProjectList = [
     {
@@ -42,8 +43,16 @@ export const ProjectList = [
         image: passivum,
         skills: "Solidity, Foundry, Next.js, React.js, Ethers.js, ERC-4337",
         github: "https://github.com/BlockchainUSC/passivum_wallet",
-        description: "Passivum is an account abstraction smart contract wallet built on top of the Biconomy SDK that allows users to enable social recovery and stake their idle tokens in DEX liquidity pools -- all with just one click and without paying any gas fees thanks to gasless batch trasactions.",
+        description: "Passivum is an account abstraction smart contract wallet built on top of the Biconomy SDK that allows users to enable social recovery and stake their idle tokens in DEX liquidity pools -- all with just one click and without paying any gas fees thanks to gasless batch transactions.",
         short: "ERC-4337 smart contract wallet with built-in DeFi dApp",
+    },
+    {
+        name: "National Parks Platform", 
+        image: nationalparks,
+        skills: "Java, Spring Boot, React.js, MySQL, Unit Testing, Acceptance Testing",
+        github: "https://github.com/GioZaarour/National-Parks-Platform",
+        description: "A national parks search engine and ranking platform, made for CSCI310 Software Engineering at USC. Compare national parks with your friends, make a favorites list of US national parks, and rank them in order of preference.",
+        short: "National parks search engine and ranking platform.",
     },
     {
         name: "Trojan Scheduler", 

@@ -109,32 +109,28 @@
   @media only screen and (max-width: 600px) {
 
     .roles {
-        padding-bottom: 550px;
+      min-height: 100vh;
     }
 
     .roles h2 {
-      font-size: 40px;
+      font-size: 20px;
     }
   
     .roles .prompt {
       margin-top: 10px;
-      font-size: 20px;
       width: 80%;
     }
 
     .roles .currently {
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         width: 50%;
-        font-size: 18px;
+        font-size: 12px;
         font-weight: 350;
-        padding-top: 550px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        min-height: 100vh;
         margin: 0;
-        padding-bottom: 50px;
       }
   
     .list {
@@ -146,7 +142,7 @@
   /* Responsive adjustments for smaller mobile devices */
   @media only screen and (max-width: 400px) {
 
-    .about_home {
+    /* .about_home {
       width: 100%;
       align-items: center;
       font-family: "Arial", sans-serif;
@@ -156,7 +152,7 @@
       align-items: center;
       min-height: 150vh;
       margin: 0;
-    }
+    } */
   
     .roles {
       display: flex;
@@ -168,19 +164,18 @@
     }
   
     .roles h2 {
-      font-size: 40px;
+      font-size: 20px;
     }
   
     .roles .prompt {
       margin-top: 10px;
-      font-size: 20px;
       width: 80%;
     }
   
     .roles .currently {
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       width: 50%;
-      font-size: 18px;
+      font-size: 12px;
       font-weight: 350;
 
       display: flex;

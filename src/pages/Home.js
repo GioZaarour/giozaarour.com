@@ -13,7 +13,7 @@ function Home() {
         <div className="about"> 
             <h2> Hi, I'm Gio. </h2>
             <div className="prompt"> 
-                <p>I'm a student at the University of Southern California studying Computer Science and Business. Some things I like are: blockchains, distributed systems, machine learning, cryptography, finance, economics, and entrepreneurship.</p>
+                <p>I'm a software engineer and USC alumnus. Some things I like are: blockchains, distributed systems, AI, finance, and entrepreneurship.</p>
                 <a href="https://github.com/GioZaarour" target="_blank" rel="noreferrer"><GitHubIcon /></a>
                 <a href="https://www.linkedin.com/in/giozaarour/" target="_blank" rel="noreferrer"><LinkedInIcon /></a>
                 <a href="/about" target="_blank" rel="noreferrer"><QuestionMarkIcon /></a>
