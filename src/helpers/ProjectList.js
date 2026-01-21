@@ -26,7 +26,7 @@ export const ProjectList = [
         name: "Failora", 
         image: paxos,
         skills: "Go, Distributed Systems Theory",
-        github: "https://github.com/cantoramann/failora",
+        github: "https://github.com/GioZaarour/failora",
         description: "A novel leader election algorithm for distributed systems which is based on response latency and response rate under high traffic in previous elections. Built with my friend Can Toraman.",
         short: "Novel leader election algorithm for distributed systems",
     },
@@ -46,22 +46,22 @@ export const ProjectList = [
         description: "Passivum is an account abstraction smart contract wallet built on top of the Biconomy SDK that allows users to enable social recovery and stake their idle tokens in DEX liquidity pools -- all with just one click and without paying any gas fees thanks to gasless batch transactions.",
         short: "ERC-4337 smart contract wallet with built-in DeFi dApp",
     },
-    {
-        name: "National Parks Platform", 
-        image: nationalparks,
-        skills: "Java, Spring Boot, React.js, MySQL, Unit Testing, Acceptance Testing",
-        github: "https://github.com/GioZaarour/National-Parks-Platform",
-        description: "A national parks search engine and ranking platform, made for CSCI310 Software Engineering at USC. Compare national parks with your friends, make a favorites list of US national parks, and rank them in order of preference.",
-        short: "National parks search engine and ranking platform.",
-    },
-    {
-        name: "Trojan Scheduler", 
-        image: trojanscheduler,
-        skills: "Java, JavaScript, MySQL DB, Python Scraping, Client-Server Networking",
-        github: "https://github.com/GioZaarour/Trojan-Scheduler",
-        description: "Trojan scheduler is an app designed to help USC students find the best GE courses based on their schedule availability, the desired GE category, and optimal professor ratings. This scrapes data from the USC web registration page and professor rating data from RateMyProfessor.",
-        short: "Web app designed to help USC students find the best GE courses",
-    },
+    // {
+    //     name: "National Parks Platform", 
+    //     image: nationalparks,
+    //     skills: "Java, Spring Boot, React.js, MySQL, Unit Testing, Acceptance Testing",
+    //     github: "https://github.com/GioZaarour/National-Parks-Platform",
+    //     description: "A national parks search engine and ranking platform, made for CSCI310 Software Engineering at USC. Compare national parks with your friends, make a favorites list of US national parks, and rank them in order of preference.",
+    //     short: "National parks search engine and ranking platform.",
+    // },
+    // {
+    //     name: "Trojan Scheduler", 
+    //     image: trojanscheduler,
+    //     skills: "Java, JavaScript, MySQL DB, Python Scraping, Client-Server Networking",
+    //     github: "https://github.com/GioZaarour/Trojan-Scheduler",
+    //     description: "Trojan scheduler is an app designed to help USC students find the best GE courses based on their schedule availability, the desired GE category, and optimal professor ratings. This scrapes data from the USC web registration page and professor rating data from RateMyProfessor.",
+    //     short: "Web app designed to help USC students find the best GE courses",
+    // },
     {
         name: "moonlight.xyz", 
         image: moonlight,
@@ -78,14 +78,14 @@ export const ProjectList = [
         description: "Replicated state machine (a key/value store) using a custom primary-backup replication implementation in Go, with an unreplicated view service. This was a project for my upper division Distributed Systems class at USC.",
         short: "RSM using a custom primary-backup replication implemenatation in Go",
     },
-    {
-        name: "potat.io", 
-        image: potatio,
-        skills: "Solidity, Foundry, React.js, Ethers.js",
-        github: "https://github.com/dangush/ethsanfrancisco22",
-        description: "Betting game built on Ethereum/Polygon, utilizing payment streaming via Superfluid. For the ETHGlobal San Francisco 2022 hackathon. Our project won prizes for three different sponsor pools",
-        short: "Smart contract betting game built on the blockchain"
-    }, 
+    // {
+    //     name: "potat.io", 
+    //     image: potatio,
+    //     skills: "Solidity, Foundry, React.js, Ethers.js",
+    //     github: "https://github.com/dangush/ethsanfrancisco22",
+    //     description: "Betting game built on Ethereum/Polygon, utilizing payment streaming via Superfluid. For the ETHGlobal San Francisco 2022 hackathon. Our project won prizes for three different sponsor pools",
+    //     short: "Smart contract betting game built on the blockchain"
+    // }, 
     // {
     //     name: "giozaarour.com", 
     //     image: websiteCom,
@@ -94,32 +94,32 @@ export const ProjectList = [
     //     description: "My personal website (this one!) and portfolio.",
     //     short: "This website"
     // }, 
-    {
-        name: "C++ AVL Tree", 
-        image: avlShit,
-        skills: "C++, Advanced Data Structures",
-        github: "https://github.com/GioZaarour/C-AVL-Tree",
-        description: "An AVL tree is a self-balancing binary search tree, which is a popular yet complicated data structure. Coded in C++ using OOP, templating, pointers, memory allocation, etc.",
-        short: "Self-balancing binary search tree implemented from scratch"
-    },
-    {
-        name: "Python Library Data Visualizer",
-        image: datareport,
-        skills: "Python, Powershell Scripting, HTML, REST API",
-        github: "https://github.com/GioZaarour/Library-Data-Visualizer",
-        description: "Tool for generating monthly data reports for all library branches in Glendale, CA. Accesses the library database with Sierra REST API and generates an HTML data report with a python script",
-        note: "This is a project I built while working for the City of Glendale, and is used by library department executives for quality control and insights.",
-        short: "Tool to generate monthly database reports for library branches"
-    },
-    {
-        name: "Library Registration Page",
-        image: elac,
-        skills: "PHP, SQL, HTML, REST API",
-        github: "https://github.com/GioZaarour/Library-Patron-Registration-Tool",
-        description: "Online patron registration tool that generates a new library card number and patron profile (connected to the Library ILS Database via Sierra REST API).",
-        note: "This is a project I built while working for the City of Glendale, and is being used by the public at https://register.eglendalelac.org ",
-        short: "Online registration system for library branches in Glendale, CA"
-    },
+    // {
+    //     name: "C++ AVL Tree", 
+    //     image: avlShit,
+    //     skills: "C++, Advanced Data Structures",
+    //     github: "https://github.com/GioZaarour/C-AVL-Tree",
+    //     description: "An AVL tree is a self-balancing binary search tree, which is a popular yet complicated data structure. Coded in C++ using OOP, templating, pointers, memory allocation, etc.",
+    //     short: "Self-balancing binary search tree implemented from scratch"
+    // },
+    // {
+    //     name: "Python Library Data Visualizer",
+    //     image: datareport,
+    //     skills: "Python, Powershell Scripting, HTML, REST API",
+    //     github: "https://github.com/GioZaarour/Library-Data-Visualizer",
+    //     description: "Tool for generating monthly data reports for all library branches in Glendale, CA. Accesses the library database with Sierra REST API and generates an HTML data report with a python script",
+    //     note: "This is a project I built while working for the City of Glendale, and is used by library department executives for quality control and insights.",
+    //     short: "Tool to generate monthly database reports for library branches"
+    // },
+    // {
+    //     name: "Library Registration Page",
+    //     image: elac,
+    //     skills: "PHP, SQL, HTML, REST API",
+    //     github: "https://github.com/GioZaarour/Library-Patron-Registration-Tool",
+    //     description: "Online patron registration tool that generates a new library card number and patron profile (connected to the Library ILS Database via Sierra REST API).",
+    //     note: "This is a project I built while working for the City of Glendale, and is being used by the public at https://register.eglendalelac.org ",
+    //     short: "Online registration system for library branches in Glendale, CA"
+    // },
     // {
     //     name: "Tempus NFT", 
     //     image: tempusGif,

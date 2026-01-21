@@ -7,10 +7,17 @@ import lebanon from "../assets/lebanon.png";
 import AA from "../assets/AA.webp";
 import consensus from "../assets/consensus.png";
 import passivum from "../assets/passivum.jpg";
-import skeptics from "../assets/skeptics.png";
+import skeptics from "../assets/skeptics.png";  
 import web3soc from "../assets/web3soc.png";
+import aiart from "../assets/aiart.png";
 
 export const ArticleList = [
+    {
+        title: "Art in the Age of Digital Intelligence", 
+        thumbnail: aiart,
+        date: "August 6, 2025",
+        hyperlink: "https://medium.com/@giozaarour/art-in-the-age-of-digital-intelligence-002735c7807d",
+    },
     {
         title: "Web3 Social: Driving New Forms of Identity, Connection & Value Creation", 
         thumbnail: web3soc,
