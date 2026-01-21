@@ -12,8 +12,26 @@ import passivum from "../assets/passivum.jpg";
 import paxos from "../assets/paxos.jpg";
 import eth from "../assets/eth.jpg";
 import nationalparks from "../assets/nationalparks.png";
+import icbcPaper from "../assets/icbcpaper.png";
+import arxivLogo from "../assets/arxivlogo.jpg";
 
 export const ProjectList = [
+    {
+        name: "Proactive Market Making and Liquidity Analysis for Everlasting Options in DeFi Ecosystems",
+        image: icbcPaper,
+        skills: "Research, DeFi, Market Making, Liquidity, Options",
+        github: "https://ieeexplore.ieee.org/abstract/document/11114454",
+        description: "IEEE International Conference on Blockchain and Cryptocurrency (ICBC), IEEE, 2025.",
+        short: "ICBC 2025 Paper",
+    },
+    {
+        name: "A Survey on the Applications of Zero-Knowledge Proofs",
+        image: arxivLogo,
+        skills: "Research, Zero-Knowledge Proofs, Cryptography, Blockchain",
+        github: "https://arxiv.org/abs/2408.00243",
+        description: "ArXiv pre-print.",
+        short: "Survey paper on ZKPs",
+    },
     {
         name: "Modelling ETH MEV", 
         image: eth,
